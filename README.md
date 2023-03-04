@@ -4,7 +4,7 @@ Este repositorio contiene un proyecto web hecho con Gatsby y un microservicio de
 ## Estructura del repositorio
 El repositorio está organizado en dos carpetas principales:
 
-frontend: contiene el contenido del sitio web hecho en Gatsby.
+frontend: contiene el contenido del sitio web. Aquí se irán añadiendo todos los contenidos en formato markdown dinámicamente.
 lambda_microservice: contiene el código del microservicio para ejecutar en AWS Lambda.
 
 ## Frontend
