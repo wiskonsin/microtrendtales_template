@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #573B5F;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+main #main_container::before {
+  top:120%;
+  left:0;
+  position:absolute;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+}
+
+#img_background {
+  pointer-events: none;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  background-repeat : repeat;
+}
